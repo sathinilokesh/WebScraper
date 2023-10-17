@@ -5,7 +5,7 @@ import pandas as pd
 # Function to scrape product information from a page
 def scrape_amazon_page(url):
     headers = {
-        "User-Agent": "Your User Agent"
+        "User-Agent": "WebScraper/1.0 (Language=Python/3.11.4; Platform=Windows)"
     }
     product_info = []
     response = requests.get(url, headers=headers)
