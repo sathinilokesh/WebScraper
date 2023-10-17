@@ -8,7 +8,6 @@ This repository contains a Python script for web scraping Amazon product data. T
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Prerequisites
@@ -70,17 +69,6 @@ You can configure the script by editing the `scrape_amazon.py` file:
 - `HEADERS`: You can modify the headers sent with the HTTP request.
 - `SAVE_TO_CSV`: You can change the filename for the CSV file where the data is saved.
 
-## Contributing
-
-If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Submit a pull request to the main repository.
-
-Please make sure to follow the code of conduct and respect the license.
 
 ## License
 
