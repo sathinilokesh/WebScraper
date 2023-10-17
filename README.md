@@ -24,6 +24,10 @@ Before using this script, you need to have the following prerequisites installed
   ```
   pip install beautifulsoup4
   ```
+  - The `Pandas` library: You can install it using `pip`:
+  ```
+  pip install pandas
+  ```
 
 ## Installation
 
@@ -36,7 +40,7 @@ Before using this script, you need to have the following prerequisites installed
 2. Navigate to the project directory:
 
    ```
-   cd amazon-web-scraping
+   cd WebScraper
    ```
 
 ## Usage
