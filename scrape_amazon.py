@@ -1,12 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import csv
 
 # Function to scrape product information from a page
 def scrape_amazon_page(url):
     headers = {
-        "User-Agent": "WebScraper/1.0 (Language=Python/3.11.4; Platform=Windows)"
+        "User-Agent": "Your User Agent"
     }
     product_info = []
     response = requests.get(url, headers=headers)
@@ -43,9 +42,7 @@ def scrape_amazon_page(url):
 # Scrape multiple pages
 product_urls = [
     "https://www.amazon.in/s?k=bags&crid=2M096C61O4MLT&qid=1653308124&sprefix=ba%2Caps%2C283&ref=sr_pg_1",
-    # "https://www.amazon.in/s?k=mobiles&ref=nb_sb_noss_1"
-    # "https://www.amazon.in/s?k=computers&ref=nb_sb_noss_1"
-    # Add more URLs here
+    # Can add more URLs here
 ]
 
 # Create a list of dictionaries to store the scraped data
