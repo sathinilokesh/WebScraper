@@ -15,7 +15,7 @@ This repository contains a Python script for web scraping Amazon product data. T
 
 Before using this script, you need to have the following prerequisites installed:
 
-- Python3
+- Python
 - The `requests` library: You can install it using `pip`:
   ```
   pip install requests
@@ -24,7 +24,7 @@ Before using this script, you need to have the following prerequisites installed
   ```
   pip install beautifulsoup4
   ```
-  - The `Pandas` library: You can install it using `pip`:
+- The `Pandas` library: You can install it using `pip`:
   ```
   pip install pandas
   ```
@@ -60,7 +60,7 @@ The script will extract the following information from the product page:
 - Rating
 - Number of Reviews
 
-The extracted data will be displayed in the terminal and saved to a CSV file named `amazon_product_data.csv` in the project directory.
+The extracted data will be saved to a CSV file named `amazon_product_data.csv` in the project directory.
 
 ## Configuration
 
