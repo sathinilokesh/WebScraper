@@ -62,4 +62,4 @@ for url in product_urls:
 df = pd.DataFrame(data)
 
 # Export the data to a CSV file
-df.to_csv('amazon_product_info.csv', index=False)
+df.to_csv('amazon_product_data.csv', index=False)
